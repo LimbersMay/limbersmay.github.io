@@ -3,14 +3,25 @@ import {Project, SkillGroup} from "../interfaces";
 
 const projects: Project[] = [
     {
-        title: "EasyWebstore - Create your own web store",
+        title: "EasyWebstore - My catalog",
         description: {
-            ES: "EasyWebstore es una aplicación web que te permite crear tu propia tienda en línea. Puedes crear productos, categorías, controlar el stock, vincular tu tienda con tu número de WhatsApp y más",
-            EN: "EasyWebstore is a web application that allows you to create your own online store. You can create products, categories, control the stock, link your store with your WhatsApp number and more"
+            ES: "EasyWebstore es una aplicación desarrollada para mi uso, me permite dar a conocer un catálogo digital de productos de mi emprendimiento, cuenta con una vista del cliente y con un backoffice operacional",
+            EN: "EasyWebstore is an application developed for my use, it allows me to showcase a digital product catalog of my entrepreneurship, it has a client view and an operational backoffice"
         },
         imageURL: "https://picsum.photos/200/300",
         linkToProject: "https://easywebstore.netlify.app/store/dxaL0IW44ORzawFdKnL1xRjAEp02",
         technologies: ["React", "TypeScript", "Redux", "Firebase", "Tailwind CSS"],
+        isAvailableToPreview: true
+    },
+    {
+        title: "Rebooks - Save & Track your reading progress",
+        description: {
+            EN: "Rebooks is a web application that allows you to save the books you are reading and track your reading progress. It also allows you to search for books and add them to your library",
+            ES: "Rebooks es una aplicación web que te permite guardar los libros que estás leyendo y llevar un seguimiento de tu progreso de lectura. También te permite buscar libros y añadirlos a tu biblioteca"
+        },
+        imageURL: "https://picsum.photos/200/300",
+        linkToProject: "https://chromewebstore.google.com/detail/rebooks-save-track-your-r/kmggkmkjkkbikpdeaminlpkcngobclaj?authuser=2&hl=en",
+        technologies: ["Angular", "Primeng"],
         isAvailableToPreview: true
     },
     {
@@ -45,6 +56,17 @@ const projects: Project[] = [
         linkToProject: "",
         technologies: ["React", "TypeScript", "NodeJS", "Express", "Redux", "Mysql"],
         isAvailableToPreview: false
+    },
+    {
+        title: "POS System Restaurant",
+        description: {
+            ES: "Aplicación web de punto de venta para restaurantes, permite administrar usuarios, roles, categorias, productos, mesas, areas, ordenes y más, actualmente en desarrollo",
+            EN: "Restaurant POS web application, allows to manage users, roles, categories, products, tables, areas, orders and more, currently in development"
+        },
+        imageURL: "https://picsum.photos/200/300",
+        linkToProject: "",
+        technologies: ["Angular", "ASP.NET", "Entity Framework", "Mysql", "SignalR"],
+        isAvailableToPreview: false
     }
 ]
 
@@ -55,16 +77,16 @@ const skillGroups: SkillGroup[] = [
             {
                 name: "node js",
                 level: {
-                    EN: "advanced",
-                    ES: "avanzado"
+                    EN: "Intermediate",
+                    ES: "Intermedio"
                 },
                 imageURL: "https://www.svgrepo.com/show/373929/node.svg",
             },
             {
                 name: "express",
                 level: {
-                    EN: "advanced",
-                    ES: "avanzado"
+                    EN: "Intermediate",
+                    ES: "intermedio"
                 },
                 imageURL: "https://www.svgrepo.com/show/353724/express.svg",
             },
@@ -111,16 +133,16 @@ const skillGroups: SkillGroup[] = [
             {
                 name: "Firebase",
                 level: {
-                    EN: "intermediate",
-                    ES: "intermedio"
+                    EN: "Begginer",
+                    ES: "Básico"
                 },
                 imageURL: "https://www.svgrepo.com/show/353735/firebase.svg",
             },
             {
                 name: "ASP.NET Core",
                 level: {
-                    EN: "beginner",
-                    ES: "principiante"
+                    EN: "Intermediate",
+                    ES: "Intermedio"
                 },
                 imageURL: "https://www.svgrepo.com/show/376369/dotnet.svg",
             },
@@ -128,7 +150,7 @@ const skillGroups: SkillGroup[] = [
                 name: "Docker",
                 level: {
                     EN: "beginner",
-                    ES: "principiante"
+                    ES: "Básico"
                 },
                 imageURL: "https://www.svgrepo.com/show/373553/docker.svg",
             },
@@ -140,10 +162,18 @@ const skillGroups: SkillGroup[] = [
             {
                 name: "react",
                 level: {
-                    EN: "advanced",
-                    ES: "avanzado"
+                    EN: "Intermediate",
+                    ES: "Intermedio"
                 },
                 imageURL: "https://www.svgrepo.com/show/354259/react.svg",
+            },
+            {
+                name: "Angular",
+                level: {
+                    EN: "beginner",
+                    ES: "Básico"
+                },
+                imageURL: "https://www.svgrepo.com/show/452156/angular.svg"
             },
             {
                 name: "typescript",
@@ -173,7 +203,7 @@ const skillGroups: SkillGroup[] = [
                 name: "Vite",
                 level: {
                     EN: "beginner",
-                    ES: "principiante"
+                    ES: "Básico"
                 },
                 imageURL: "https://www.svgrepo.com/show/354521/vitejs.svg",
             },
@@ -181,7 +211,7 @@ const skillGroups: SkillGroup[] = [
                 name: "Tailwind CSS",
                 level: {
                     EN: "beginner",
-                    ES: "principiante"
+                    ES: "Básico"
                 },
                 imageURL: "https://www.svgrepo.com/show/374118/tailwind.svg",
             },
